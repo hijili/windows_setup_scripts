@@ -1,0 +1,45 @@
+# chocolateyに登録されているアプリ名
+# https://chocolatey.org/packages で探す
+# chocolatey "探してるアプリ名" で大体見つかるかと
+dropbox
+googlejapaneseinput
+
+# editor
+terapad
+visualstudiocode
+
+# paint
+firealpaca
+
+# browser
+googlechrome
+firefox
+
+# music, movie
+itunes
+vlc
+audacity
+
+# document
+adobereader
+libreoffice
+
+# dev
+git
+unity
+blender
+virtualbox
+wireshark
+winpcap
+
+# communicate
+thunderbird
+discord
+
+# game
+steam
+
+# others
+kindle
+7zip
+# wox
