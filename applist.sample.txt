@@ -5,7 +5,7 @@ dropbox
 googlejapaneseinput
 
 # editor
-terapad
+## terapad
 visualstudiocode
 
 # paint
@@ -14,11 +14,13 @@ firealpaca
 # browser
 googlechrome
 firefox
+tor-browser
 
 # music, movie
 itunes
 vlc
 audacity
+obs
 
 # document
 adobereader
@@ -31,10 +33,13 @@ blender
 virtualbox
 wireshark
 winpcap
+dotnetcore-sdk
 
 # communicate
 thunderbird
 discord
+microsoft-teams
+zoom
 
 # game
 steam
@@ -42,4 +47,7 @@ steam
 # others
 kindle
 7zip
-# wox
+## wox
+teraterm
+ultravnc
+zap

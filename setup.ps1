@@ -1,4 +1,4 @@
-﻿function install_choco {
+function install_choco {
     # install chocolatey: ref https://chocolatey.org/docs/installation
     try {
         Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
