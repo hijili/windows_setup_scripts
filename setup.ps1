@@ -26,11 +26,15 @@ function update_softwares_by_choco {
     $list = "exclude_update_list.txt"
     $opt = ""
     if (Test-Path $list) {
-        foreach ($line in Get-Content $list) {
+        foreach ($line in Get-Content -Encoding UTF8 $list) {
+            Write-Output("[DEBUG] line = $line");
+
             if ( $line -match "^#") { continue }
             if ( $line -match "^$") { continue }
             $excludes += $line
         }
+        Write-Output("[DEBUG] excludes = $excludes");
+
         if ($excludes.Length -gt 0) {
             $opt = "--except=" + ($excludes -join ",")
         }
